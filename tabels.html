@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.1/css/select.dataTables.min.css">
+    <link rel="stylesheet" href="css/waves.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-rtl.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+    <section class="information tables">
+        <div class="container">
+            <nav class="navbar d-none d-sm-flex">
+                  
+                <div class="about-logo ml-auto">
+                    <img src="img/Group 156.png" alt="">
+                </div>
+                <div class="about-icon">
+                    <form action="">
+                        <input type="email" class="form-control" id="search" placeholder="البحث عن معاملة">
+
+                        <button class="btn">                    <i class="fas fa-search"></i>
+                        </button>
+                    </form>                  
+                    <a href="">
+                        <i class="fas fa-bell"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-cog"></i>
+                    </a>
+                    <a href="">
+                        <img src="img/photo-smll-round.png" alt="">
+                    </a>
+                </div>
+
+            
+
+            </nav>
+            <nav class="navbar mobile  d-sm-none">
+            
+
+                <div class="about-icon">
+                    <a class="navbar-brand" href="#">
+
+                        <img src="img/Rectangle 1.png" alt="">
+                </a>
+                    <a href="">
+                        <i class="fas fa-bell"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-cog"></i>
+                    </a>
+                    <a href="">
+                        <img src="img/photo-smll-round.png" alt="">
+                    </a>
+                    <form action="">
+                        <input type="email" class="form-control" id="search" placeholder="البحث عن معاملة">
+
+                        <button class="btn">                    <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+
+                </div>
+                
+
+            </nav>
+        
+          
+            <section class="right-side">
+            
+                <div class="about-icon">
+                    <a href="transaction.html">
+                        <img src="img/plus.png" alt="">
+                    </a>
+                </div>
+                <div class="rectangle">
+                    <a href=""> <img src="img/down-g.png" alt=""> <span>الوارد</span></a>
+                    <a href=""> <img src="img/up-g.png" alt=""><span>الصادر</span></a>
+                    <a href=""> <img src="img/pen-g.png" alt=""><span>المسودات</span></a>
+                    <a href=""><img src="img/paper-g.png" alt=""><span>النماذج</span></a>
+                    <a href=""> <img src="img/trash.png" alt=""><span>الارشيف</span></a>
+                </div>
+            </section>
+            <div class="head">
+                <div class="links">
+                    <ul class="list-unstyled">
+                        <li><a href=""><i class="fas fa-home"></i></a></li>
+                        <li>صندوق الوارد</li>
+                    </ul>
+                  
+                </div>
+
+                <div class="dropdown drop-1">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        عرض الكل</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">عرض الكل</a>
+                        <a class="dropdown-item" href="#">الوارد العام</a>
+                        <a class="dropdown-item" href="#">الوارد السري</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="table-box">
+                <div class="box-head">
+                    <div class="dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <h2>
+
+                        الصناديق
+                    </h2>
+                </div>
+                <div class="emails-table">
+                    <table id="example" class="display" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-link="https://code.jquery.com/jquery-1.12.4.min.js">
+                                <td></td>
+                                <td class="read-icon"><img src="img/down.png" alt=""> </td>
+                                <td>!!!</td>
+                                <td class="security"><img src="img/safe.png" alt=""></td>
+                                <td class="orgs"><span>المديرية العامة للجوازات</span></td>
+                                <td class="title">التكامل مع أنظمة السمات الحيوية وتفعيل التحقق من DNA</td>
+                                <td class="books">
+                                    <img src="img/paper-final.png" alt=""><span>3</span></td>
+                                <td class="status"><span>بانتظار الاكمال </span></td>
+                                <td class="date">1441/1/10</td>
+                            </tr>
+                            <tr data-link="https://code.jquery.com/jquery-1.12.4.min.js">
+                                <td></td>
+                                <td class="read-icon"><img src="img/down.png" alt=""> </td>
+                                <td>!!!</td>
+                                <td class="security"></td>
+                                <td class="orgs"><span>المديرية العامة للجوازات</span></td>
+                                <td class="title">التكامل مع أنظمة السمات الحيوية وتفعيل التحقق من DNA</td>
+                                <td class="books">
+                                    <img src="img/paper-final.png" alt=""><span>3</span></td>
+                                <td class="status"><span>بانتظار الاكمال </span></td>
+                                <td class="date">1441/1/10</td>
+                            </tr>
+                            <tr data-link="https://code.jquery.com/jquery-1.12.4.min.js">
+                                <td></td>
+                                <td class="read-icon"><img src="img/pen.png" alt=""> </td>
+                                <td>!!!</td>
+                                <td class="security"><img src="img/safe.png" alt=""></td>
+                                <td class="orgs"><span>المديرية العامة للجوازات</span></td>
+                                <td class="title">التكامل مع أنظمة السمات الحيوية وتفعيل التحقق من DNA</td>
+                                <td class="books">
+                                    <img src="img/paper-final.png" alt=""><span>3</span></td>
+                                <td class="status"><span>بانتظار الاكمال </span></td>
+                                <td class="date">1441/1/10</td>
+                            </tr>
+                            <tr data-link="https://code.jquery.com/jquery-1.12.4.min.js">
+                                <td></td>
+                                <td class="read-icon"><img src="img/paper.png" alt=""> </td>
+                                <td>!!!</td>
+                                <td class="security"></td>
+                                <td class="orgs"><span>المديرية العامة للجوازات</span></td>
+                                <td class="title">التكامل مع أنظمة السمات الحيوية وتفعيل التحقق من DNA</td>
+                                <td class="books">
+                                    <img src="img/paper-final.png" alt=""><span>3</span></td>
+                                <td class="status"><span>بانتظار الاكمال </span></td>
+                                <td class="date">1441/1/10</td>
+                            </tr>
+                            <tr data-link="https://code.jquery.com/jquery-1.12.4.min.js">
+                                <td></td>
+                                <td class="read-icon"><img src="img/up.png" alt=""> </td>
+                                <td>!!!</td>
+                                <td class="security"></td>
+                                <td class="orgs"><span>المديرية العامة للجوازات</span></td>
+                                <td class="title">التكامل مع أنظمة السمات الحيوية وتفعيل التحقق من DNA</td>
+                                <td class="books">
+                                    <img src="img/paper-final.png" alt=""><span>3</span></td>
+                                <td class="status"><span>بانتظار الاكمال </span></td>
+                                <td class="date">1441/1/10</td>
+                            </tr>
+                            <tr data-link="https://code.jquery.com/jquery-1.12.4.min.js">
+                                <td></td>
+                                <td class="read-icon"><img src="img/down.png" alt=""> </td>
+                                <td>!!!</td>
+                                <td class="security"></td>
+                                <td class="orgs"><span>المديرية العامة للجوازات</span></td>
+                                <td class="title">التكامل مع أنظمة السمات الحيوية وتفعيل التحقق من DNA</td>
+                                <td class="books">
+                                    <img src="img/paper-final.png" alt=""><span>3</span></td>
+                                <td class="status"><span>بانتظار الاكمال </span></td>
+                                <td class="date">1441/1/10</td>
+                            </tr>
+                            <tr data-link="https://code.jquery.com/jquery-1.12.4.min.js">
+                                <td></td>
+                                <td class="read-icon"><img src="img/up.png" alt=""> </td>
+                                <td>!!!</td>
+                                <td class="security"><img src="img/safe.png" alt=""></td>
+                                <td class="orgs"><span>المديرية العامة للجوازات</span></td>
+                                <td class="title">التكامل مع أنظمة السمات الحيوية وتفعيل التحقق من DNA</td>
+                                <td class="books">
+                                    <img src="img/paper-final.png" alt=""><span>3</span></td>
+                                <td class="status"><span>بانتظار الاكمال </span></td>
+                                <td class="date">1441/1/10</td>
+                            </tr>
+                            <tr data-link="https://code.jquery.com/jquery-1.12.4.min.js">
+                                <td></td>
+                                <td class="read-icon"><img src="img/up.png" alt=""> </td>
+                                <td>!!!</td>
+                                <td class="security"></td>
+                                <td class="orgs"><span>المديرية العامة للجوازات</span></td>
+                                <td class="title">التكامل مع أنظمة السمات الحيوية وتفعيل التحقق من DNA</td>
+                                <td class="books">
+                                    <img src="img/paper-final.png" alt=""><span>3</span></td>
+                                <td class="status"><span>بانتظار الاكمال </span></td>
+                                <td class="date">1441/1/10</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="table-box">
+                        <div class="box-head">
+                            <div class="dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <h2>
+
+                                نماذج الخطابات
+                            </h2>
+                        </div>
+                        <div class="kht-samples">
+                            <div class="sample">
+                                <div class="img">
+                                    <img src="img/gg-1.png" alt=""></div>
+                                <h6>جهات دولية</h6>
+                            </div>
+                            <div class="sample">
+                                <div class="img">
+
+
+                                    <img src="img/gg-2.png" alt=""> </div>
+                                <h6>جهات حكومية</h6>
+                            </div>
+
+                            <div class="sample">
+                                <div class="img">
+                                    <img src="img/gg-3.png" alt=""></div>
+                                <h6>جهات داخلية</h6>
+                            </div>
+                            <div class="sample">
+                                <div class="img">
+                                    <img src="img/gg-4.png" alt=""></div>
+                                <h6>شؤون الموظفين</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="table-box">
+                        <div class="box-head">
+                            <div class="dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <h2>
+
+                                التنبيهات
+                            </h2>
+                        </div>
+                        <div class="noti-table">
+                            <table class="table table-borderless">
+
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/noti.png" alt=""></td>
+                                        <td class="title">تحديث نظام الاتصالات الإدارية V3.2</td>
+                                        <td class="date">1441/1/9</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/noti.png" alt=""></td>
+                                        <td class="title">تحديث نظام الاتصالات الإدارية V3.2</td>
+                                        <td class="date">1441/1/9</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/noti.png" alt=""></td>
+                                        <td class="title">تحديث نظام الاتصالات الإدارية V3.2</td>
+                                        <td class="date">1441/1/9</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/noti.png" alt=""></td>
+                                        <td class="title">تحديث نظام الاتصالات الإدارية V3.2</td>
+                                        <td class="date">1441/1/9</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/noti.png" alt=""></td>
+                                        <td class="title">تحديث نظام الاتصالات الإدارية V3.2</td>
+                                        <td class="date">1441/1/9</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="add-new-box" data-toggle="modal" data-target="#add-new-box">
+                        <div class="plus">
+                            +
+                        </div>
+                        <h5>إضافة نافذة</h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-between">
+                <div class="col">
+                    <div class="about-logo">
+                        <img src="img/Group 159.png" alt="">
+                        <p>
+                            تطوير وتشغيل
+                            مركز المعلومات الوطني</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="about-text">
+                        <div class="first">
+                            <i class="fas fa-book-open"></i>
+                            <h3>دليل الاستخدام</h3>
+                        </div>
+                        <div class="second">
+                            <i class="fas fa-question-circle"></i>
+                            <h3>الدعم الفني</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="add-new-box" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3>الرجاء تحديد الصناديق التي ترغب في عرضها في هذه النافذة :</h3>
+                    <div class="chechboxes">
+                        <div class="custom-control custom-radio">
+                            <input type="checkbox" id="customRadio1" name="customRadio1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1">صندوق الوارد العام</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="checkbox" id="customRadio2" name="customRadio2" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2">صندوق الصادر</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="checkbox" id="customRadio3" name="customRadio3" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio3">المسودات</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="checkbox" id="customRadio4" name="customRadio4" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio4">التصاريح</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="checkbox" id="customRadio5" name="customRadio5" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio5">المعاملات الشخصية</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn save">حفظ</button>
+
+                    <button type="button" class="btn exit" data-dismiss="modal" aria-label="Close">الغاء</button>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js" ></script>
+
+  <script src="js/bootstrap.min.js" ></script>
+  <script src="js/waves.js"></script>
+
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js">
+
+    </script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.3.1/js/dataTables.select.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable({
+                responsive: true ,
+                "scrollX": true ,
+                columnDefs: [{
+                    orderable: false,
+                    className: 'select-checkbox',
+                    targets: 0
+                }],
+                select: {
+                    style: 'multi',
+                    selector: 'td:first-child'
+                },
+                order: [[1, 'asc']] 
+                
+
+            });
+
+            // $('#example tbody > tr > td:not(:first-child)').on('click', function () {
+            //     // 'this' refers to the current <td>, if you need information out of it
+            //     var link = $(this).parent().attr('data-link');
+            //     location.href = link;
+
+            // });
+        });
+
+    </script>
+
+
+</body>
+
+
+
+
+
+</html>

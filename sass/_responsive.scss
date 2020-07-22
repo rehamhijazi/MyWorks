@@ -1,0 +1,417 @@
+@media (max-width: 567px) {
+  footer .about-text {
+    flex-direction: column;
+    margin-top: 0;
+    h3 {
+      font-size: 12px;
+    }
+  }
+
+  .right-side {
+    position: static;
+    transform: none;
+    display: flex;
+    margin: 20px 0 50px;
+    .about-icon a img {
+      max-width: 50px;
+      margin: 0px 15px;
+    }
+    .rectangle {
+      width: auto;
+      flex: 1;
+      height: auto;
+      flex-direction: row;
+      span{
+        display: none !important;
+      }
+    }
+  }
+  .about-icon {
+    align-items: center;
+    .navbar-brand {
+      margin-left: auto;
+      img {
+        max-width: 46px;
+      }
+    }
+    flex-wrap: wrap;
+    input {
+      width: 100%;
+    }
+  }
+  .information {
+    .about-button .inputs {
+      flex-direction: column;
+      .material-input {
+        margin-bottom: 15px;
+      }
+    }
+    .drobdowns {
+      .dropdown {
+        width: calc(100% / 2 - 20px);
+        margin: 0 10px;
+        margin-bottom: 20px;
+        select {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .basic-information {
+    .drobdowns {
+      .dropdown {
+        width: calc(100% / 2 - 20px);
+        margin: 0 10px;
+        margin-bottom: 20px;
+
+        select {
+          width: 100% !important;
+        }
+      }
+    }
+    .main-info {
+      .about-text {
+        .senders {
+          flex-direction: column;
+          .number-1 {
+            width: 100% !important;
+          }
+        }
+        .about-drobdown {
+          select {
+            width: auto !important;
+          }
+        }
+      }
+    }
+  }
+
+  .transaction-page {
+    .nav-tabs {
+      flex-wrap: nowrap;
+      .nav-link .icon-box {
+        .icon {
+          width: 40px;
+          height: 40px;
+          img {
+            max-width: 15px;
+          }
+        }
+        h6 {
+          font-size: 11px;
+        }
+      }
+    }
+    .tab-content .content-tabel {
+      margin-right: 0;
+    }
+  }
+
+  .tables {
+    .dropdown-menu {
+      max-width: 100%;
+      min-width: auto;
+      .dropdown-item {
+      
+        padding: 0.25rem 1rem;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .table-box {
+    table {
+      .orgs {
+        min-width: 150px;
+      }
+      .title {
+        min-width: 365px;
+      }
+      .books {
+        min-width: 24px;
+      }
+      .status {
+        min-width: 90px;
+      }
+    }
+  }
+  
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  
+  footer .about-text {
+    flex-direction: column;
+    margin-top: 0;
+    h3 {
+      font-size: 12px;
+    }
+  }
+
+  .right-side {
+    position: static;
+    transform: none;
+    display: flex;
+    margin: 20px 0 50px;
+    .about-icon a img {
+      max-width: 50px;
+      margin: 0px 15px;
+    }
+    .rectangle {
+      width: auto;
+      flex: 1;
+      height: auto;
+      flex-direction: row;
+    }
+  }
+  .about-icon {
+    align-items: center;
+    .navbar-brand {
+      margin-left: auto;
+      img {
+        max-width: 46px;
+      }
+    }
+    flex-wrap: wrap;
+    input {
+      width: 100%;
+    }
+  }
+  .information {
+    .about-button .inputs {
+      flex-direction: column;
+      .material-input {
+        margin-bottom: 15px;
+      }
+    }
+    .drobdowns {
+      .dropdown {
+        width: calc(100% / 2 - 20px);
+        margin: 0 10px;
+        margin-bottom: 20px;
+        select {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .basic-information {
+    .drobdowns {
+      .dropdown {
+        width: calc(100% / 2 - 20px);
+        margin: 0 10px;
+        margin-bottom: 20px;
+
+        select {
+          width: 100% !important;
+        }
+      }
+    }
+    .main-info {
+      .about-text {
+        .senders {
+          flex-direction: column;
+          .number-1 {
+            width: 100% !important;
+          }
+        }
+        .about-drobdown {
+          select {
+            width: auto !important;
+          }
+        }
+      }
+    }
+  }
+
+  .transaction-page {
+    .nav-tabs {
+      flex-wrap: nowrap;
+      .nav-link .icon-box {
+        .icon {
+          width: 40px;
+          height: 40px;
+          img {
+            max-width: 15px;
+          }
+        }
+        h6 {
+          font-size: 11px;
+        }
+      }
+    }
+    .tab-content .content-tabel {
+      margin-right: 0;
+    }
+  }
+
+  .tables {
+    .dropdown-menu {
+      max-width: 100%;
+      min-width: auto;
+      .dropdown-item {
+      
+        padding: 0.25rem 1rem;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .table-box {
+    table {
+      .orgs {
+        min-width: 150px;
+      }
+      .title {
+        min-width: 365px;
+      }
+      .books {
+        min-width: 24px;
+      }
+      .status {
+        min-width: 90px;
+      }
+    }
+  }
+ }
+
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+  footer .about-text {
+    flex-direction: column;
+    margin-top: 0;
+    h3 {
+      font-size: 12px;
+    }
+  }
+
+  .right-side {
+    position: static;
+    transform: none;
+    display: flex;
+    margin: 20px 0 50px;
+    .about-icon a img {
+      max-width: 50px;
+      margin: 0px 15px;
+    }
+    .rectangle {
+      width: auto;
+      flex: 1;
+      height: auto;
+      flex-direction: row;
+    }
+  }
+  .about-icon {
+    align-items: center;
+    .navbar-brand {
+      margin-left: auto;
+      img {
+        max-width: 46px;
+      }
+    }
+    flex-wrap: wrap;
+    input {
+      width: 100%;
+    }
+  }
+  .information {
+    .about-button .inputs {
+      flex-direction: column;
+      .material-input {
+        margin-bottom: 15px;
+      }
+    }
+    .drobdowns {
+      .dropdown {
+        width: calc(100% / 2 - 20px);
+        margin: 0 10px;
+        margin-bottom: 20px;
+        select {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .basic-information {
+    .drobdowns {
+      .dropdown {
+        width: calc(100% / 2 - 20px);
+        margin: 0 10px;
+        margin-bottom: 20px;
+
+        select {
+          width: 100% !important;
+        }
+      }
+    }
+    .main-info {
+      .about-text {
+        .senders {
+          flex-direction: column;
+          .number-1 {
+            width: 100% !important;
+          }
+        }
+        .about-drobdown {
+          select {
+            width: auto !important;
+          }
+        }
+      }
+    }
+  }
+
+  .transaction-page {
+    .nav-tabs {
+      flex-wrap: nowrap;
+      .nav-link .icon-box {
+        .icon {
+          width: 40px;
+          height: 40px;
+          img {
+            max-width: 15px;
+          }
+        }
+        h6 {
+          font-size: 11px;
+        }
+      }
+    }
+    .tab-content .content-tabel {
+      margin-right: 0;
+    }
+  }
+
+  .tables {
+    .dropdown-menu {
+      max-width: 100%;
+      min-width: auto;
+      .dropdown-item {
+      
+        padding: 0.25rem 1rem;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .table-box {
+    table {
+      .orgs {
+        min-width: 150px;
+      }
+      .title {
+        min-width: 365px;
+      }
+      .books {
+        min-width: 24px;
+      }
+      .status {
+        min-width: 90px;
+      }
+    }
+  }
+
+
+  }

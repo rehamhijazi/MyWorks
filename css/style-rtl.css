@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
+body {
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+}
+
+.dropdown-toggle::before {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.login-page .material-input i {
+  right: 15px;
+  left: auto;
+}
+
+.login-page .material-input input {
+  padding-left: 0;
+  padding-right: 45px;
+}
+
+.login-page .material-input label {
+  left: auto;
+  right: 45px;
+}
+
+.login-finger .material-input i {
+  right: 15px;
+  left: auto;
+}
+
+.login-finger .material-input input {
+  padding-left: 0;
+  padding-right: 45px;
+}
+
+.login-finger .material-input label {
+  left: auto;
+  right: 45px;
+}
+
+.information .links {
+  text-align: right;
+}
+
+.information .about-button {
+  text-align: right;
+}
+
+.dropdown.drop-1 .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.dropdown.drop-1 .dropdown-toggle::before {
+  display: none;
+}
+
+.information .inputs .material-input i {
+  right: 15px;
+  left: auto;
+}
+
+.information .inputs .material-input input {
+  padding-left: 0;
+  padding-right: 45px;
+}
+
+.information .inputs .material-input label {
+  left: auto;
+  right: 45px;
+}
+
+.information .inputs .material-input i {
+  right: 15px;
+  left: auto;
+}
+
+.information .inputs .material-input input {
+  padding-left: 0;
+  padding-right: 45px;
+}
+
+.information .inputs .material-input label {
+  left: auto;
+  right: 45px;
+}
+
+.basic-information .main-info .about-text .material-input input {
+  padding-left: 0;
+  padding-right: 45px;
+}
+
+.basic-information .main-info .about-text .material-input label {
+  left: auto;
+  right: 45px;
+}
+
+.basic-information .links {
+  text-align: right;
+}
+
+.basic-information .main-info h3 {
+  text-align: right;
+}
+
+.basic-information .main-info .about-text .response .about-text {
+  text-align: right;
+}
+
+.basic-information .main-info .final-buttons {
+  text-align: right;
+}
+
+.custom-control {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+.custom-radio .custom-control-label::before {
+  right: -1.5rem;
+  left: auto;
+}
+
+.custom-radio .custom-control-label::after {
+  right: -1.5rem;
+  left: auto;
+}
+
+.dropdown-menu {
+  right: 0;
+  left: auto !important;
+  text-align: right;
+}
+
+.sw-main .sw-toolbar {
+  margin-right: 0;
+}
+
+#add-new-box {
+  text-align: right;
+}
+
+.transaction-page .tab-content .content-tabel h3 {
+  text-align: right;
+}
+/*# sourceMappingURL=style-rtl.css.map */

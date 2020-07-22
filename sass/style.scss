@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    padding-bottom: 150px;
+}
+@import 'login-page';
+
+@import 'verification';
+@import 'login-finger';
+@import 'navbar';
+
+@import 'right-side';
+@import 'information';
+@import 'basic-information';
+@import 'tabels';
+@import 'transaction-page';
+
+
+@import 'responsive' ;
+
+.dropdown.drop-1{
+    margin: 0 5px;
+    .dropdown-toggle::after{
+        margin-top: 10px;
+    }
+    button{
+        background-color: #f2f2f2;
+
+    }
+}
+.btn:focus, .btn.focus , .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+table.dataTable tr.selected td.select-checkbox:after,
+table.dataTable tr.selected th.select-checkbox:after {
+    content: '\2714';
+    margin-top: -3px;
+    margin-left: -6px;
+    text-align: center;
+    font-size: 12px;
+    text-shadow: none;
+}
+
+
+
+table.dataTable img {
+    max-width: 25px;
+}
+
+.dataTable thead {
+    display: none;
+}
+#example_wrapper .row:nth-child(1) , 
+#example_wrapper .row:nth-child(3) {
+    display: none;
+}
+.links {
+    margin-top: 30px;
+    ul{
+        display: flex;
+        a , li {
+            font-size: 13px;
+            font-weight: 500;
+            color: #afadad;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+          a{
+              &:after{
+                content: "\f104";
+                font-family: "Font Awesome 5 Free";
+                margin: 0 5px;
+
+    font-weight: 900;
+              }
+          }
+    }
+   
+  }
+  select , input {
+      &:focus{
+          outline: none;
+      }
+  }

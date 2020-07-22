@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+
+    .navbar-brand {
+      margin-right: 0;
+    }
+    .about-icon {
+      display: flex;
+      justify-content: flex-end;
+  
+      form{
+        display: flex;
+        position: relative;
+        button{
+          position: absolute;
+          right: -7px;
+          top: -4px;
+        }
+      }
+      input {
+        background-color: rgba(0, 0, 0, 0.05);
+        width: 245px;
+        height: 34px;
+        font-size: 13px;
+        margin-top: 7px;
+        margin-left: 10px;
+        border: none;
+        padding-right: 30px;
+        position: relative;
+      }
+      i {
+        margin-left: 10px;
+        font-size: 20px;
+        color: #afadad;
+        margin-top: 13px;
+      }
+    }
+  }

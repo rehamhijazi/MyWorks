@@ -1,0 +1,158 @@
+/*************************************Login Page************************************************************/
+
+.login-page {
+  text-align: center;
+  padding: 100px 0px;
+
+  .dropdown-toggle {
+    font-weight: 500;
+    text-align: right;
+    color: #57ba61;
+  }
+
+  .next {
+    border-radius: 4px;
+    background-color: #57ba61;
+    color: white;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    a{
+      font-size: 16px;
+  
+  color: #0384c9;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+  .forget {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    .dropdown-toggle,
+    a {
+      color: #afadad;
+    }
+  }
+  .material-input {
+    position: relative;
+    label {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 45px;
+      color: 
+        #616161;
+      transition: all 0.4s;
+      cursor: text;
+    }
+    i {
+      position: absolute;
+      font-size: 21px;
+      color: #afadad;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 15px;
+    }
+    input {
+      background-color: rgba($color: #000000, $alpha: 0.05);
+      height: 55px;
+      padding-left: 45px;
+      border: none;
+      border-bottom: 1px solid #000;
+      border-radius: 5px 5px 0 0;
+  
+      &:focus ,
+      &.has-value {
+        ~ label {
+          transform: translateY(-28px);
+
+          font-size: 12px;
+          color: #57ba61;
+        }
+        ~ i{
+          color: #57ba61;
+
+        }
+      }
+    }
+ 
+  }
+}
+.login-page-box {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  h3{
+    color: #666666      ;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  .login-switcher{
+    display: inline-block;
+    margin-bottom: 20px;
+    .dropdown-menu{
+      left: auto !important;
+  transform: none !important;
+  top: 36px !important;
+  right: 0;
+  .dropdown-item{
+    color: #afadad;
+    font-size: 15px;
+    margin-bottom: 5px;
+    i{
+      margin-left: 10px;
+    }
+  }
+    }
+  }
+}
+footer {
+  padding: 8px 0px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  .about-text {
+    display: flex;
+    color: #afadad;
+    justify-content: flex-end;
+    margin-top: 39px;
+
+    .first,
+    .second {
+      display: flex;
+    }
+
+    .first {
+      margin-left: 25px;
+    }
+    h3 {
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    i {
+      font-size: 19px;
+      margin-left: 6px;
+    }
+  }
+
+  .about-logo {
+    text-align: right;
+
+    p {
+      font-size: 12px;
+      color: #807c7c;
+      text-align: right;
+      max-width: 98px;
+    }
+  }
+}

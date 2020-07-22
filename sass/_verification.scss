@@ -1,0 +1,32 @@
+.verification{
+text-align: center;
+min-height: calc(100vh - 105px);
+
+.login-page-box{
+transform: translateY(50%);
+    
+    h3{
+font-style: 22px;
+padding: 25px 0px;        
+
+    }
+}
+
+.myPinCode {
+    display: flex;
+    justify-content: center;
+    direction: ltr;
+}
+
+.myPinCode input {
+    border: none;
+    width: 40px;
+    border-bottom: 2px solid #ccc;
+    margin: 0 10px;
+    outline: none;
+    text-align: center;
+    
+}
+
+
+}

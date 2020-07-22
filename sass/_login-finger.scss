@@ -1,0 +1,87 @@
+.login-finger {
+    text-align: center;
+    padding: 100px 0px;
+  
+    .dropdown-toggle {
+      font-weight: 500;
+      text-align: right;
+      color: #57ba61;
+    }
+    .login-page-box {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .next {
+      border-radius: 4px;
+      background-color: #57ba61;
+      color: white;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      a{
+        font-size: 16px;
+  
+        color: #0384c9;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+    .forget {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+  
+      .dropdown-toggle,
+      a {
+        color: #afadad;
+      }
+    }
+    .material-input {
+      position: relative;
+      label {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 45px;
+        transition: all 0.4s;
+        cursor: text;
+        color: 
+        #616161;
+      }
+      i {
+        position: absolute;
+        font-size: 21px;
+        color: #afadad;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 15px;
+      }
+      input {
+        background-color: rgba($color: #000000, $alpha: 0.05);
+        height: 55px;
+        padding-left: 45px;
+        border: none;
+        border-bottom: 1px solid #000;
+        border-radius: 5px 5px 0 0;
+    
+        &:focus ,
+        &.has-value {
+          ~ label {
+            transform: translateY(-28px);
+  
+            font-size: 12px;
+            color: #57ba61;
+          }
+          ~ i{
+            color: #57ba61;
+  
+          }
+        }
+      }
+   
+    }
+  }
